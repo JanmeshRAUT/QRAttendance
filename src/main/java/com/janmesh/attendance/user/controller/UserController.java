@@ -4,7 +4,7 @@ import com.janmesh.attendance.user.dto.request.CreateUserRequest;
 import com.janmesh.attendance.user.dto.request.LoginRequest;
 import com.janmesh.attendance.user.dto.request.UpdateUserRequest;
 import com.janmesh.attendance.user.dto.response.UserResponse;
-import com.janmesh.attendance.user.service.UserService;
+import com.janmesh.attendance.user.service.interfaces.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

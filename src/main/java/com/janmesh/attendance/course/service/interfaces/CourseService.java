@@ -1,4 +1,4 @@
-package com.janmesh.attendance.course.service;
+package com.janmesh.attendance.course.service.interfaces;
 
 import com.janmesh.attendance.course.dto.request.CreateCourseRequest;
 import com.janmesh.attendance.course.dto.request.UpdateCourseRequest;

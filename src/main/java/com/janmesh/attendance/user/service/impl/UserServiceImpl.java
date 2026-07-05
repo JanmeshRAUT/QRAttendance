@@ -6,10 +6,10 @@ import com.janmesh.attendance.user.dto.request.LoginRequest;
 import com.janmesh.attendance.user.dto.request.UpdateUserRequest;
 import com.janmesh.attendance.user.dto.response.UserResponse;
 import com.janmesh.attendance.user.entity.User;
-import com.janmesh.attendance.user.exception.*;
+import com.janmesh.attendance.common.exception.*;
 import com.janmesh.attendance.user.mapper.UserMapper;
 import com.janmesh.attendance.user.repository.UserRepository;
-import com.janmesh.attendance.user.service.UserService;
+import com.janmesh.attendance.user.service.interfaces.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.janmesh.attendance.user.service;
+package com.janmesh.attendance.user.service.interfaces;
 
 import com.janmesh.attendance.user.dto.request.CreateUserRequest;
 import com.janmesh.attendance.user.dto.request.LoginRequest;
