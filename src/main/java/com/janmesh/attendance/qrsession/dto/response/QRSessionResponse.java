@@ -1,0 +1,29 @@
+package com.janmesh.attendance.qrsession.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class QRSessionResponse {
+
+    private UUID id;
+    private UUID courseId;
+    private UUID facultyId;
+    private UUID classroomId;
+    private LocalDateTime startTime;
+    private LocalDateTime endTime;
+    private String qrToken;
+    private Boolean active;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+}
